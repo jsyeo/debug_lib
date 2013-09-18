@@ -1,8 +1,17 @@
-debug.cma:
-	ocamlbuild debug.cma
+OCAML=ocaml
 
-debug.cmxa:
-	ocamlbuild debug.cmxa
+all: configure build install
+
+configure:
+	$(OCAML) setup.ml -configure
+
+build: configure
+	$(OCAML) setup.ml -build
+
+install: build
+	$(OCAML) setup.ml -install
 
 clean:
 	rm -rf _build
+	rm -f setup.data
+	rm -f setup.log
