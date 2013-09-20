@@ -6,3 +6,7 @@ _build
 .o
 .byte
 .native
+
+# oasis files
+setup.log
+setup.data
