@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: a2a78f4d3a27ea4f82d194b703ce8129)
+# DO NOT EDIT (digest: cf331f2499f42ec92c8097f9f6154f4f)
 # Ignore VCS directories, you can use the same kind of rule outside 
 # OASIS_START/STOP if you want to exclude directories that contains 
 # useless stuff for the build process
@@ -15,4 +15,5 @@
 "_darcs": not_hygienic
 # Library debuglib
 "debuglib.cmxs": use_debuglib
+<*.ml{,i}>: pkg_str
 # OASIS_STOP

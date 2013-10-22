@@ -1,7 +1,8 @@
 # OASIS_START
-# DO NOT EDIT (digest: 91feadfb93947ca21962bab8cc3286d3)
+# DO NOT EDIT (digest: 33afb99397e9114b53c2ccddcbc07d14)
 version = "0.1"
 description = "OCaml debug library"
+requires = "str"
 archive(byte) = "debuglib.cma"
 archive(byte, plugin) = "debuglib.cma"
 archive(native) = "debuglib.cmxa"

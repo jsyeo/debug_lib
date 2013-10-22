@@ -10,4 +10,4 @@ Library debuglib
   Path:       .
   BuildTools: ocamlbuild
   Modules:    Debug, Globals, Gen
-  
+  BuildDepends: str

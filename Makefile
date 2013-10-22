@@ -11,6 +11,9 @@ build: configure
 install: build
 	$(OCAML) setup.ml -install
 
+uninstall:
+	$(OCAML) setup.ml -uninstall
+
 clean:
 	rm -rf _build
 	rm -f setup.data
