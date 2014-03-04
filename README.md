@@ -24,4 +24,4 @@ dependencies on it.
 Say the file that you are compiling is called `cool_prog.ml`, use
 `ocamlbuild` with these options.
 
-    ocamlbuild -pkg debuglib -lib str cool_prog.native
+    ocamlbuild -pkg debuglib cool_prog.native
